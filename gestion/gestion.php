@@ -7,3 +7,5 @@ Author: Solange Harmonie PICARD
 Version: 1.0
 Author URI: https://solangeharmoniepicard.fr/
 */
+// Include ges-functions.php, use require_once to stop the script if ges-functions.php is not found
+require_once plugin_dir_path(__FILE__) . 'includes/ges-functions.php';

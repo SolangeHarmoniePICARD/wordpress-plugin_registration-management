@@ -13,5 +13,8 @@ function ges_Add_My_Admin_Link(){
         'Gestion des inscriptions', // Text to show on the menu link
         'manage_options', // Capability requirement to see the link
         'gestion/includes/ges-page.php' // The 'slug' - file to display when clicking the link
+        '', // The function to be called to output the content for this page.
+        'dashicons-editor-ul', // The URL to the icon to be used for this menu.
+        '2' // The position in the menu order this one should appear.
     );
 }
